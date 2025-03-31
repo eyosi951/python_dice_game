@@ -1,0 +1,26 @@
+.load-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-sizing: border-box;
+}
+   .product-container{
+   display: grid;
+       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+       gap: 20px;
+   }
+   .items {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    /* Let it fill the grid column */
+}
+.all{
+    margin: 0;
+    
+    display: flex;
+    flex-direction: column;
+   }

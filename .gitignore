@@ -1,6 +1,0 @@
-# .gitignore
-__pycache__/
-*.tmp
-*.log
-.DS_Store
-.env
